@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sensational Cities - Homepage</title>
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" type="text/css" />
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+	<script src="https://use.fontawesome.com/eed36b6b1e.js"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">Sensational Cities</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="construction.html">Africa</a></li>
+					<li><a href="construction.html">America</a></li>
+					<li><a href="asia.html">Asia</a></li>
+					<li><a href="construction.html">Europe</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="row">
+			<button type="button" class="btn btn-primary">Blue theme</button>
+			<button type="button" class="btn btn-success">Green theme</button>
+			<button type="button" class="btn btn-warning">Orange theme</button>
+			<button type="button" class="btn btn-danger">Red theme</button>
+			<button type="button" class="btn btn-default">Default theme</button>
+			<div class="alert">
+  			
+			</div>
+		</div>
+	</div>
+	<div class="container mainBanner">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="jumbotron">
+					<h1>Sensational Cities</h1>
+					<br>
+					<br>
+					<p>We are all great explorers during our first few days in a new city</p>
+					<p>- Mignon McLaughlin</p>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<img src="img/citySkyline.jpg" class="img-rounded" alt="" width="600" height="420">
+			</div>
+		</div>
+	</div>
+	<div class="container mainContent">
+		<div class="row">
+			<div class="col-sm-8">
+				<article>
+					<h2>Our mission</h2>
+					<p>Sesnsational Cities was founded on the principal that life is all about learning and exploration. That our learning journey never ends and the best way to grow is through experiencing something new. Also, nothing contributes more to peace in our world than increasing our understanding about other people. Cities are the window into the hearts, minds and souls of a nation s and by exploring them we can learn about the world around us and ourselves.</p>
+					<blockquote>
+						<h3>"Not all those who wander are lost "</h3>
+						<p>- J.R.R. Tolkien</p>
+					</blockquote>
+					<p>The mission of this website is to introduce fascinating cities from across the globe. To begin, we will select some of the better know cities and then move to some of the hidden jewels contained in our fascinating world. Each page will contain a
+						little about the background of the city and then a few of that cities notable features. This is not intended as a travel site, but rather as a way to spark understanding and interest in the world around us and hopefully help to develop a travel
+						bug within you. So each page will just contain brief snippets of information that will hopefully increase a spark in you to go and search for additional information.</p>
+					<blockquote>
+						<h3>"We travel, some of us forever, to seek other places, other lives, other souls."</h3>
+						<p>- Anais Nin</p>
+					</blockquote>
+					<p>To this end we need your help. We would like you to help drive the content of our site. So please take the time to share with us what cities you have been to that you found fascinating. Or what cities would ypu like to find out more about. We will
+						be constantly checking your responses and adding new cities. We look forward to hearing from you. Until then we hope you enjoy your journey.</p>
+				</article>
+			</div>
+			<div class="col-sm-4">
+				<form action="post">
+					<fieldset>
+						<legend>Your vote</legend>
+						<span class="glyphicon form-control-feedback" id="spanCity"></span>
+						<div class="form-group">
+							<label for="nationality">Nationality:</label>
+							<input type="text" class="form-control" id="nationality">
+						</div>
+						<div class="form-group">
+							<label for="region">Region:</label>
+							<select class="form-control" id="region">
+    							<option>-- Select a region --</option>
+								<option>Africa</option>
+    							<option>Asia</option>
+    							<option>Americas</option>
+    							<option>Europe</option>
+    							<option>Middle East</option>
+    							<option>Other</option>
+  							</select>
+						</div>
+						<div class="form-group" id="divCity">
+							<label for="city">City:</label>
+							<input type="text" class="form-control" id="city" required>
+						</div>
+						<div class="form-group">
+							<label for="reason">Reason:</label>
+							<textarea class="form-control" rows="5" id="reason"></textarea>
+						</div>
+						<div class="form-group">
+							<label>More information:</label>
+							<div class="radio">
+								<label><input type="radio" name="contactInfo" value="yes " id="contactInfo" checked>Yes</label>
+							</div>
+							<div class="radio">
+								<label><input type="radio" name="contactInfo" value="no">No</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email">Email address:</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox">Send additional promo info</label>
+						</div>
+						<br>
+						<button type="submit" class="btn btn-default" id="submitBtn">Submit</button>
+						<br>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- end container -->
+	<footer>
+		<div class="well well-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<ul>
+							<li><i class="fa fa-facebook-square" aria-hidden="true"></i><a href="#">facebook</a></li>
+							<li><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="#">linkedin</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul>
+							<li><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="#">twitter</a></li>
+							<li><i class="fa fa-tumblr-square" aria-hidden="true"></i><a href="#">tumblr</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul>
+							<li><i class="fa fa-google-plus-square" aria-hidden="true"></i><a href="#">google+</a></li>
+							<li><i class="fa fa-flickr" aria-hidden="true"></i><a href="# ">flickr</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h6>2112 Settlers Lane | New York | New York | 10013 | ph: 917-815-9397</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jcanvas.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+<!-- git@github.com:Tezza1/Assignment3.git -->
+
+</html>

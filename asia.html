@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sensational Cities - Homepage</title>
+    
+    <!-- jQuery -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" type="text/css"/>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <script src="https://use.fontawesome.com/eed36b6b1e.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Sensational Cities</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="construction.html">Africa</a></li>
+                    <li><a href="construction.html">America</a></li>
+                    <li class="active"><a href="asia.html">Asia</a></li>
+                    <li><a href="construction.html">Europe</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <button type="button" class="btn btn-primary">Blue theme</button>
+            <button type="button" class="btn btn-success">Green theme</button>
+            <button type="button" class="btn btn-warning">Orange theme</button>
+            <button type="button" class="btn btn-danger">Red theme</button>
+            <button type="button" class="btn btn-default">Default theme</button>
+			<div class="alert">
+  			
+			</div>
+        </div>
+    </div>
+        <div class="container mainBanner">
+        <div class= "row">
+			<div class="col-sm-6">
+				<div class="jumbotron">
+					<h1>Sensational Cities</h1>
+					<br>
+					<br>
+					<p>We are all great explorers during our first few days in a new city</p>
+					<p>- Mignon McLaughlin</p>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<img src="img/kyoto.jpg" class="img-rounded" alt="" width="600" height="420">
+			</div>
+		</div>
+    </div>
+    <div class="container mainContent">
+        <div class="row">
+            <div class="col-sm-8">
+                <article>
+                     <h2>Kyoto, Japan</h2>
+                     <p>Kansai is made up of four major cities. There is the bustling neon jugle of Osaka, Japan's second largest city. Towards the west is the beautiful city of Kobe which is located on a narrow peice of land that is sandwiched by a mountain and the sea. To the east are the two ancient capitals of Nara and Kyoto. Nara was the capital of Japan from 710 to 794. But the jewel in Japan's amazing site-seeing crown is the city of Kyoto. The last time it was the capital of Japan was in 1869.</p>
+                     <blockquote>
+                        <h3>"Even in Kyoto</h3>
+                        <h3>Hearing the cuckoo's cry</h3>
+                        <h3>I long for Kyoto"</h3>
+                        <p>- Matsuo Basho</p>
+                     </blockquote>
+                     <p>There are literally thousands of Buddhist temples and Shinto shrines in Kyoto. One of the great joys is to wander along the streets and discover some ancient small temple nestled between a couple of modern buildings. Some of Japan's key sites are ontained with this city, that is itself ringed by mountains.The variety, historical span and sheer number of World Heritage Sites in Kyoto is unrivaled in Japan. Nijo-jo Castle and the sixteen temples and shrines were selected as World Heritage Sites by UNESCO in 1994. Kyoto is a wonderful example of a modern, working Japanese city that is sprinkled with sites that contain it&#39;s ancient past. Please take the time to read more about or visit and explore this wonderful city.</p>
+                </article>
+				    <blockquote>
+                        <h3>"Japan is the most intoxicating place for me. In Kyoto, there's an inn called the Tawaraya which is quite extraordinary. The Japanese culture fascinates me: the food, the dress, the manners and the traditions. It's the travel experience that has moved me the most."</h3>
+                        <p>- Roman Coppola</p>
+                     </blockquote>
+				<p>Kyoto truly can be life enhancing experience. Enjoy your time and enrich your life, exploring this city.</p>
+			</div>
+            <div class="col-sm-4">
+				<div class="table">
+					<h3>Top 3 sites in Kyoto</h3>
+					<h6>Hover over table for more info</h6>
+					<table class="table">
+						<tr  id="tableRow1">
+							<th>Kinkakuji</th>
+							<td>"Kin" means gold, so it is the golden temple. It is one of the most popular tourist sites in Japan. The temple&#39;s character changes with the season. You can find out more about it here: <a href="https://en.wikipedia.org/wiki/Kinkaku-ji">Link to Wikipedia</a>.</td>
+						</tr>
+						<tr id="tableRow2">
+							<th>Kiyomizu</th>
+							<td>It is a Buddhist temple located in Eastern Kyoto. The current structure was built in 1633. The views of Kyoto are breathtaking. You can find out more information about it here: <a href="https://en.wikipedia.org/wiki/Kiyomizu-dera">Link to Wikipedia</a>.</td>
+						</tr>
+						<tr id="tableRow3">
+							<th>Nijo</th>
+							<td>This castle was completed in 1626. It is made up of two rings of fortification. The inside of the castle contains beautiful traditional rooms. You can find out more information about it here: <a href="https://en.wikipedia.org/wiki/Nij%C5%8D_Castle">Link to Wikipedia</a>.</td>
+						</tr>
+					</table>
+                </div>
+				<h4>Logo designer</h4>
+				<canvas width="400" height="200"></canvas>
+				<br />
+				<label for="colorPicker">Change the bacground color:</label>
+				<select name="colorPicker" id="colorPicker">
+    				<option value="white">White</option>
+    				<option value="blue">Blue</option>
+    				<option value="red">Red</option>
+    				<option value="green">Green</option>
+				</select>
+				<br />
+				<br />
+				<label for="slogan">Add a slogan:</label>
+				<input type="text" id="slogan"/>
+				<br />
+				<br />
+				<button id="drawCanvas" class=".btn-default">Add circles</button>
+				<button id="addSlogan" class=".btn-default">Add slogan</button>
+				<button id="clearCanvas" class=".btn-default">Clear</button>
+				<br>
+				<br>
+            </div>
+		</div> <!-- end of row -->
+     </div> <!-- end container -->
+        <footer>
+        <div class="well well-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <ul>
+                            <li><i class="fa fa-facebook-square" aria-hidden="true"></i><a href="#">facebook</a></li>
+                            <li><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="#">linkedin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul>
+                            <li><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="#">twitter</a></li>
+                            <li><i class="fa fa-tumblr-square" aria-hidden="true"></i><a href="#">tumblr</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul>
+                            <li><i class="fa fa-google-plus-square" aria-hidden="true"></i><a href="#">google+</a></li>
+                            <li><i class="fa fa-flickr" aria-hidden="true"></i><a href="# ">flickr</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h6>2112 Settlers Lane | New York | New York | 10013 | ph: 917-815-9397</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jcanvas.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+<!-- git@github.com:Tezza1/Assignment3.git -->
+</html>

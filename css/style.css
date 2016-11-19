@@ -1,0 +1,53 @@
+/* ---------- THEME BUTTONS ---------- */
+
+.btn {
+  margin: 1em 1em 2em 1em;
+}
+
+img {
+	opacity: 0.9;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+/* ---------- ARTICLE ---------- */
+
+article p {
+	line-height: 175%;
+	font-size: 1.1em;
+}
+
+article p:first-letter {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+blockquote h3 {
+	color: grey;
+}
+
+blockquote p {
+	color: grey;
+}
+
+/* ---------- FOOTER STYLES ---------- */
+footer li {
+	list-style: none;
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Comfortaa', cursive;
+	padding: 1.5em 0em 0em 1.5em;
+}
+
+footer h6 {
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	padding: 0 0;
+	padding-top: 1.5em;
+	margin: 0 0;
+}
+
+
